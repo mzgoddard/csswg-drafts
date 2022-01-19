@@ -820,7 +820,7 @@ Syntax</h4>
 	user agents must also accept the previous one-colon notation
 	for the Level 1 &amp; 2 pseudo-elements
 	(''::before'', ''::after'', ''::first-line'', and ''::first-letter'').
-	This compatibility notation is not allowed for any other <a>pseudo-elements</a>.
+	This compatibility notation is not allowed any other <a>pseudo-elements</a>.
 	However, as this syntax is deprecated,
 	authors should use the Level 3+ double-colon syntax for these <a>pseudo-elements</a>.
 
@@ -1260,7 +1260,7 @@ The Relational Pseudo-class: '':has()''</h3>
 
 		<pre>section:has(:not(h1, h2, h3, h4, h5, h6))</pre>
 
-		...would result matching any <code>&lt;section></code> element
+		...would result in matching any <code>&lt;section></code> element
 		which contains anything that's not a heading element.
 	</div>
 
